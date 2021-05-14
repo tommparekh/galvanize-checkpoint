@@ -15,13 +15,13 @@ public class SedController {
 
         StringBuilder finalSb = new StringBuilder();
 
-        while(true) {
+        while (true) {
             int i = sb.indexOf(find);
             if (i < 0) {
                 break;
             }
-            sb.replace(i, i+find.length(), replace);
+            sb.replace(i, i + find.length(), replace);
         }
-      return sb.toString();
+        return sb.toString();
     }
 }
