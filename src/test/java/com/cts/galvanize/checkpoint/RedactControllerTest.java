@@ -25,4 +25,6 @@ public class RedactControllerTest {
         this.mockMvc.perform(requestBuilder).andExpect(status().isOk())
                 .andExpect(content().string("A ****** of **** and a ****** of that"));
     }
+
+
 }
